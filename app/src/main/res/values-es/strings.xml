@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tu Fixture</string>
+    <string name="string_nombre">Nombre de Usuario</string>
+    <string name="string_pass">Contraseña</string>
+    <string name="string_entrar">Ingresar</string>
+    <string name="string_registro">Regístrate aquí</string>
+    <string name="string_registro1">Regístrate</string>
+    <string name="string_confirmar_pass">Confirmar contraseña</string>
+    <string name="string_exception">Error de Excepcion</string>
+    <string name="string_error_confPass">Contraseñas no son iguales</string>
+    <string name="string_success_registeer">Registro exitoso</string>
+    <string name="string_empty">Debes llenar todos los campos de texto</string>
+    <string name="string_error_login">Nombre o contraseña incorrectos</string>
+    <string name="string_mainmenu">Menu principal</string>
+    <string name="string_team">Equipos</string>
+    <string name="string_fixture">Fixture</string>
+    <string name="string_championship">Campeonatos</string>
+
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_lindex"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_lindex_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".activities.ChampionShipActivity"></activity>
+        <activity android:name=".activities.SecondaryActivity" />
+        <activity android:name=".activities.PrincipalActivity" />
+        <activity android:name=".activities.UserRegisterActivity" /> <!-- DATOS DE LA BD -->
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.example.finalproject1.models.User, com.example.finalproject1.models.Team" />
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="Fixture" /> <!-- FIN DATOS DE LA BD -->
+        <provider
+            android:name="com.activeandroid.content.ContentProvider"
+            android:authorities="com.example.finalproject1"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

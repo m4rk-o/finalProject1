@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Your Fixture</string>
+    <string name="string_nombre">Name</string>
+    <string name="string_pass">Password</string>
+    <string name="string_entrar">Login</string>
+    <string name="string_registro">Register here</string>
+    <string name="string_registro1">Sign Up</string>
+    <string name="string_confirmar_pass">Retype Password</string>
+    <string name="string_exception">Exception error</string>
+    <string name="string_error_confPass">Invalid Passwords</string>
+    <string name="string_success_registeer">Successful registration</string>
+    <string name="string_empty">You must fill in all the text fields</string>
+    <string name="string_error_login">Username or password incorrect</string>
+    <string name="string_mainmenu">Main menu</string>
+    <string name="string_team">Teams</string>
+    <string name="string_fixture">Fixture</string>
+    <string name="string_championship">ChampionShips</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="cabecera_tabla">
+        <item>#</item>
+        <item>TEAM</item>
+        <item>Pl</item>
+        <item>W</item>
+        <item>D</item>
+        <item>L</item>
+        <item>F</item>
+        <item>A</item>
+        <item>GD</item>
+        <item>Pts</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="0dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginTop="168dp"
+            android:layout_marginBottom="64dp"
+            android:foregroundGravity="center"
+            app:srcCompat="@drawable/logo_liga" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_UserName"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="@string/string_nombre"
+        android:textColor="#A3999D"
+        android:textColorHint="#A3999D"
+        android:textSize="16dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_UserPass"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="#11000000"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:layout_alignLeft="@id/edit_UserName"
+        android:layout_alignStart="@id/edit_UserName"
+        android:textColor="#A3999D"
+        android:textColorHint="#A3999D"
+        android:layout_marginBottom="60dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/string_entrar"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/string_registro"
+        android:textColor="#A3999D"
+        android:textSize="14dp" />
+
+</LinearLayout>
